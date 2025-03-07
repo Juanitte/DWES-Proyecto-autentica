@@ -1306,6 +1306,11 @@ input {
   color: rgb(185 28 28 / var(--tw-text-opacity, 1));
 }
 
+.group:hover .group-hover\:text-red-100 {
+  --tw-text-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-text-opacity, 1));
+}
+
 .peer\/login:checked ~ .peer-checked\/login\:block {
   display: block;
 }

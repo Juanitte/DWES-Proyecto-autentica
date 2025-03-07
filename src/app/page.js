@@ -68,7 +68,7 @@ function UserLink({ href, icon, title }) {
       <div className="mb-4 p-4 bg-red-50 rounded-full text-red-700 group-hover:bg-red-100 transition-colors">
         {icon}
       </div>
-      <h3 className="text-xl font-medium text-gray-300 group-hover:text-red-700 transition-colors">
+      <h3 className="text-xl font-medium text-gray-300 group-hover:text-red-100 transition-colors">
         {title}
       </h3>
     </Link>
